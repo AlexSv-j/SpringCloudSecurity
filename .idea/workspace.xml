@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59d61d6f-c4a9-47f4-ade1-5853044a78fd" name="Changes" comment="" />
+    <list default="true" id="59d61d6f-c4a9-47f4-ade1-5853044a78fd" name="Changes" comment="Initial commit. Resilience is implemented">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose/observability/grafana/datasource.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose/observability/prometheus/prometheus.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/test/java/com/svichkar/eureka/eurekaserver/EurekaServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notes-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/person-service/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,11 +64,12 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "E:/Try projects/Eureka/accounts",
+    "last_opened_file_path": "E:/Try projects/Eureka/docker-compose/observability",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,10 +95,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Try projects\Eureka\docker-compose\observability" />
+      <recent name="E:\Try projects\Eureka\docker-compose\observability\prom-tail" />
+      <recent name="E:\Try projects\Eureka\docker-compose\observability\loki" />
       <recent name="E:\Try projects\Eureka\person-service\src\main\resources" />
       <recent name="E:\Try projects\Eureka\person-service\src\main\java\com\example\personservice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Try projects\Eureka\docker-compose\observability\promtail" />
+      <recent name="E:\Try projects\Eureka\docker-compose\observability\loki" />
       <recent name="E:\Try projects\Eureka\docker-compose" />
       <recent name="E:\Try projects\Eureka\gateway\src" />
       <recent name="E:\Try projects\Eureka" />
@@ -211,11 +229,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.NotesService" />
+        <item itemvalue="Spring Boot.PersonServiceApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Spring Boot.ConfigServerApplication" />
-        <item itemvalue="Spring Boot.GatewayApplication" />
-        <item itemvalue="Spring Boot.PersonServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -266,19 +284,33 @@
       <workItem from="1704887310853" duration="108000" />
       <workItem from="1704887424552" duration="39423000" />
       <workItem from="1705065240198" duration="13649000" />
-      <workItem from="1705265528539" duration="2884000" />
+      <workItem from="1705265528539" duration="12905000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit. Resilience is implemented">
+      <option name="closed" value="true" />
+      <created>1705306101969</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705306101969</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit. Resilience is implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit. Resilience is implemented" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/notes-service/src/main/java/com/svichkar/eureka/noteservice/endpoint/Notes.java</url>
-          <line>56</line>
+          <line>54</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
