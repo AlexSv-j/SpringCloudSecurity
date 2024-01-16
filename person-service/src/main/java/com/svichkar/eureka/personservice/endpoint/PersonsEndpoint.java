@@ -45,7 +45,9 @@ public class PersonsEndpoint {
     @GetMapping("/testEndpoint")
     public String testEndpoint(@RequestHeader("CorrelationId") String correlationId) {
         String applicationName = applicationContext.getId();
+        logger.debug("fetching motes from notes service start");
         final var result = notesClient.getNotes(correlationId);
+        logger.debug("fetching motes from notes service end");
         return "applicationName = " + applicationName + ", " + "notes result = " + result + ", port = " + port;
     }
 

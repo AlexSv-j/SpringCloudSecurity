@@ -7,24 +7,28 @@ scrape_configs:
     metrics_path: '/actuator/prometheus'
     static_configs:
       - targets: [ 'accounts-server:8089' ]
+
   - job_name: 'notes'
     metrics_path: '/actuator/prometheus'
     static_configs:
       - targets: [ 'notes-server:8885' ]
+
   - job_name: 'persons'
     metrics_path: '/actuator/prometheus'
     static_configs:
-      - targets: [ ' persons-server:8085' ]
+      - targets: [ 'persons-server:8085' ]
+
   - job_name: 'gatewayserver'
     metrics_path: '/actuator/prometheus'
     static_configs:
       - targets: [ 'gateway-server:8887' ]
+
   - job_name: 'eurekaserver'
     metrics_path: '/actuator/prometheus'
     static_configs:
       - targets: [ 'eureka-server:8761' ]
+
   - job_name: 'configserver'
     metrics_path: '/actuator/prometheus'
     static_configs:
       - targets: [ 'configserver:8072' ]
-  

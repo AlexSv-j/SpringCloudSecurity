@@ -53,8 +53,8 @@ public class Notes {
         logger.debug("Debug log with CorrelationId - {}", correlationId);
 //        TimeUnit.MILLISECONDS.sleep(DELAY += 50);
         System.out.println("Call for noteservice. Delay = " +  DELAY.toString());
-        throw new RuntimeException("wrong");
-//        return "Required Notes";
+//        throw new RuntimeException("wrong");
+        return "Required Notes";
     }
 
     @RateLimiter(name = "rateLimiter", fallbackMethod = "rateLimiterFallback")

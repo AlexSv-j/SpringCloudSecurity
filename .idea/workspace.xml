@@ -4,18 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59d61d6f-c4a9-47f4-ade1-5853044a78fd" name="Changes" comment="Initial commit. Resilience is implemented">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose/observability/grafana/datasource.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose/observability/prometheus/prometheus.yml" afterDir="false" />
+    <list default="true" id="59d61d6f-c4a9-47f4-ade1-5853044a78fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/docker-compose/observability/tempo/tempo.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/svichkar/eureka/accounts/controller/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/svichkar/eureka/accounts/controller/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/default/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/common-config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/test/java/com/svichkar/eureka/eurekaserver/EurekaServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/observability/grafana/datasource.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/observability/grafana/datasource.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/observability/prometheus/prometheus.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/observability/prometheus/prometheus.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notes-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes-service/src/main/java/com/svichkar/eureka/noteservice/endpoint/Notes.java" beforeDir="false" afterPath="$PROJECT_DIR$/notes-service/src/main/java/com/svichkar/eureka/noteservice/endpoint/Notes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/notes-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/person-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/person-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person-service/src/main/java/com/svichkar/eureka/personservice/endpoint/PersonsEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-service/src/main/java/com/svichkar/eureka/personservice/endpoint/PersonsEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/person-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +41,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -69,7 +82,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "E:/Try projects/Eureka/docker-compose/observability",
+    "last_opened_file_path": "E:/Try projects/Udemy/SpringCloud/section_11",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -95,18 +108,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Try projects\Eureka\docker-compose" />
       <recent name="E:\Try projects\Eureka\docker-compose\observability" />
       <recent name="E:\Try projects\Eureka\docker-compose\observability\prom-tail" />
       <recent name="E:\Try projects\Eureka\docker-compose\observability\loki" />
       <recent name="E:\Try projects\Eureka\person-service\src\main\resources" />
-      <recent name="E:\Try projects\Eureka\person-service\src\main\java\com\example\personservice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Try projects\Eureka\docker-compose\observability" />
       <recent name="E:\Try projects\Eureka\docker-compose\observability\promtail" />
       <recent name="E:\Try projects\Eureka\docker-compose\observability\loki" />
       <recent name="E:\Try projects\Eureka\docker-compose" />
       <recent name="E:\Try projects\Eureka\gateway\src" />
-      <recent name="E:\Try projects\Eureka" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -122,7 +135,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AccountsApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="eureka-server" />
       <method v="2">
@@ -229,11 +242,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.NotesService" />
-        <item itemvalue="Spring Boot.PersonServiceApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Spring Boot.ConfigServerApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.PersonServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +297,8 @@
       <workItem from="1704887310853" duration="108000" />
       <workItem from="1704887424552" duration="39423000" />
       <workItem from="1705065240198" duration="13649000" />
-      <workItem from="1705265528539" duration="12905000" />
+      <workItem from="1705265528539" duration="19492000" />
+      <workItem from="1705329196490" duration="11057000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Resilience is implemented">
       <option name="closed" value="true" />
@@ -294,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705306101969</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="before including prometheus into docker compose">
+      <option name="closed" value="true" />
+      <created>1705319028557</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705319028557</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +324,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit. Resilience is implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit. Resilience is implemented" />
+    <MESSAGE value="before including prometheus" />
+    <MESSAGE value="before including prometheus into docker compose" />
+    <option name="LAST_COMMIT_MESSAGE" value="before including prometheus into docker compose" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
