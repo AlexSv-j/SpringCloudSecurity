@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.svichkar.personservice</groupId>
+    <groupId>com.svichkar.demo</groupId>
     <artifactId>person-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>person-service</name>
@@ -122,7 +122,7 @@
                 <version>3.3.2</version>
                 <configuration>
                     <to>
-                        <image>eureka/${project.artifactId}:v1</image>
+                        <image>eureka/${project.artifactId}:v12</image>
                     </to>
                 </configuration>
             </plugin>

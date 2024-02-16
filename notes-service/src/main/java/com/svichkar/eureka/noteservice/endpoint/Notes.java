@@ -37,14 +37,6 @@ public class Notes {
                     content = { @Content(mediaType = "application/json",
                             schema = @Schema(implementation = String.class)) }
             )
-//            ,
-//            @ApiResponse(
-//                    responseCode = "500",
-//                    description = "HTTP Status Internal Server Error",
-//                    content = @Content(
-//                            schema = @Schema(implementation = ErrorResponseDto.class)
-//                    )
-//            )
     }
     )
     @GetMapping("/getNotes")
@@ -53,7 +45,7 @@ public class Notes {
         logger.debug("Debug log with CorrelationId - {}", correlationId);
 //        TimeUnit.MILLISECONDS.sleep(DELAY += 50);
         System.out.println("Call for noteservice. Delay = " +  DELAY.toString());
-//        throw new RuntimeException("wrong");
+//        throw new RuntimeException("RuntimeException");
         return "Required Notes";
     }
 

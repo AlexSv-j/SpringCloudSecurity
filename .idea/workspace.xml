@@ -4,28 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59d61d6f-c4a9-47f4-ade1-5853044a78fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose/observability/tempo/tempo.yml" afterDir="false" />
+    <list default="true" id="38b66668-fab2-43b2-a7ea-f449c1bf038c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/svichkar/eureka/gateway/securityConfig/KeycloakRoleConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/svichkar/eureka/gateway/securityConfig/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/19c037f1-7502-444e-8cb9-0c78b6626675.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/19c037f1-7502-444e-8cb9-0c78b6626675/storage_v2/_src_/database/eureka-persons.arl9rA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/19c037f1-7502-444e-8cb9-0c78b6626675/storage_v2/_src_/database/eureka-persons.arl9rA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/19c037f1-7502-444e-8cb9-0c78b6626675/storage_v2/_src_/database/eureka-persons.arl9rA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/19c037f1-7502-444e-8cb9-0c78b6626675/storage_v2/_src_/database/eureka-persons.arl9rA/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/svichkar/eureka/accounts/controller/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/svichkar/eureka/accounts/controller/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/test/java/com/svichkar/eureka/accounts/AccountsApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/default/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/common-config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/observability/grafana/datasource.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/observability/grafana/datasource.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/observability/prometheus/prometheus.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/observability/prometheus/prometheus.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/svichkar/eureka/gateway/config/RouteConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/svichkar/eureka/gateway/config/RouteConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notes-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes-service/src/main/java/com/svichkar/eureka/noteservice/endpoint/Notes.java" beforeDir="false" afterPath="$PROJECT_DIR$/notes-service/src/main/java/com/svichkar/eureka/noteservice/endpoint/Notes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/notes-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes-service/src/main/resources/123bootstrap.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/person-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/person-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person-service/src/main/java/com/svichkar/eureka/personservice/endpoint/PersonsEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-service/src/main/java/com/svichkar/eureka/personservice/endpoint/PersonsEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person-service/src/main/java/com/svichkar/eureka/personservice/clients/NotesClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/person-service/src/main/java/com/svichkar/eureka/personservice/clients/NotesClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person-service/src/main/java/com/svichkar/eureka/personservice/configuration/CustomJwtConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/person-service/src/main/java/com/svichkar/eureka/personservice/configuration/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/person-service/src/main/resources/123bootstrap.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/person-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/person-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,29 +56,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitToolBoxStore">
-    <option name="projectConfigVersion" value="5" />
-  </component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/apache-maven-3.8.6" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
+  &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2VUj6HulKLaI1MsbJXOiNZuymxB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2b1x2QKHyilcZ2D8sP17dusMpim" />
   <component name="ProjectViewState">
-    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -77,55 +79,34 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "E:/Try projects/Udemy/SpringCloud/section_11",
+    "last_opened_file_path": "E:/Try projects/Udemy/Eureka/s12(Security)",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
       "postgresql"
-    ],
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "HTTP Request"
     ]
   }
 }]]></component>
-  <component name="ReactorSettings">
-    <option name="notificationShown" value="true" />
-  </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Try projects\Eureka\docker-compose" />
-      <recent name="E:\Try projects\Eureka\docker-compose\observability" />
-      <recent name="E:\Try projects\Eureka\docker-compose\observability\prom-tail" />
-      <recent name="E:\Try projects\Eureka\docker-compose\observability\loki" />
-      <recent name="E:\Try projects\Eureka\person-service\src\main\resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Try projects\Eureka\docker-compose\observability" />
-      <recent name="E:\Try projects\Eureka\docker-compose\observability\promtail" />
-      <recent name="E:\Try projects\Eureka\docker-compose\observability\loki" />
-      <recent name="E:\Try projects\Eureka\docker-compose" />
-      <recent name="E:\Try projects\Eureka\gateway\src" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.svichkar.eureka.gateway.securityConfig" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install" />
-      <command value="mvn clean compile" />
+      <command value="mvn clean package" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -135,20 +116,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="eureka-server" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="eureka-server" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Docker.default: Compose Deployment">
     <configuration name="AccountsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="accounts" />
@@ -157,71 +125,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="configserver" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.svichkar.eureka.configserver.ConfigServerApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.svichkar.eureka.configserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.svichkar.eureka.eurekaserver.EurekaServerApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.svichkar.eureka.eurekaserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.svichkar.eureka.gateway.GatewayApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.svichkar.eureka.gateway.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotesService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="MessageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="message" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.svichkar.message.MessageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotesService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="notes-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.svichkar.eureka.noteservice.NotesService" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.svichkar.eureka.noteservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <envs>
-        <env name="SPRING.DATASOURCE.URL" value="jdbc:postgresql://localhost:5435/eureka-persons" />
+        <env name="SPRING.DATASOURCE.URL" value="jdbc:postgresql://localhost:5432/eureka-persons" />
       </envs>
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="person-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.svichkar.eureka.personservice.PersonServiceApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.svichkar.eureka.personservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -232,121 +180,48 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="default: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose/default/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Docker.default: Compose Deployment" />
+      <item itemvalue="Spring Boot.MessageApplication" />
       <item itemvalue="Spring Boot.AccountsApplication" />
-      <item itemvalue="Spring Boot.PersonServiceApplication" />
-      <item itemvalue="Spring Boot.NotesService" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
-      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.NotesService" />
+      <item itemvalue="Spring Boot.PersonServiceApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.NotesService" />
-        <item itemvalue="Spring Boot.EurekaServerApplication" />
-        <item itemvalue="Spring Boot.ConfigServerApplication" />
-        <item itemvalue="Spring Boot.GatewayApplication" />
-        <item itemvalue="Spring Boot.PersonServiceApplication" />
+        <item itemvalue="Docker.default: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SpringGeneralSettings">
-    <option name="showProfilesPanel" value="false" />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="59d61d6f-c4a9-47f4-ade1-5853044a78fd" name="Changes" comment="" />
-      <created>1694897376131</created>
+      <changelist id="38b66668-fab2-43b2-a7ea-f449c1bf038c" name="Changes" comment="" />
+      <created>1705396179065</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1694897376131</updated>
-      <workItem from="1694897377216" duration="192000" />
-      <workItem from="1694897591648" duration="453000" />
-      <workItem from="1694898056067" duration="488000" />
-      <workItem from="1694925861151" duration="31000" />
-      <workItem from="1694925974545" duration="5000" />
-      <workItem from="1694926068853" duration="948000" />
-      <workItem from="1694961616260" duration="829000" />
-      <workItem from="1695017401521" duration="299000" />
-      <workItem from="1695018342324" duration="8000" />
-      <workItem from="1695018374099" duration="599000" />
-      <workItem from="1695020082412" duration="4000" />
-      <workItem from="1695020109201" duration="599000" />
-      <workItem from="1695122961208" duration="13239000" />
-      <workItem from="1695194231555" duration="3676000" />
-      <workItem from="1695895105758" duration="2288000" />
-      <workItem from="1696409118951" duration="146000" />
-      <workItem from="1696507216999" duration="113000" />
-      <workItem from="1696951090234" duration="8767000" />
-      <workItem from="1697028112223" duration="4817000" />
-      <workItem from="1697034976636" duration="3598000" />
-      <workItem from="1697209593726" duration="634000" />
-      <workItem from="1697531597082" duration="589000" />
-      <workItem from="1697541361409" duration="600000" />
-      <workItem from="1700753073505" duration="7663000" />
-      <workItem from="1700861482679" duration="1800000" />
-      <workItem from="1701690191648" duration="648000" />
-      <workItem from="1701706883365" duration="3178000" />
-      <workItem from="1702565401607" duration="9942000" />
-      <workItem from="1702984920440" duration="4470000" />
-      <workItem from="1703240056308" duration="19142000" />
-      <workItem from="1703864193593" duration="5219000" />
-      <workItem from="1704289440805" duration="82290000" />
-      <workItem from="1704887241730" duration="63000" />
-      <workItem from="1704887310853" duration="108000" />
-      <workItem from="1704887424552" duration="39423000" />
-      <workItem from="1705065240198" duration="13649000" />
-      <workItem from="1705265528539" duration="19492000" />
-      <workItem from="1705329196490" duration="11057000" />
+      <updated>1705396179065</updated>
+      <workItem from="1705396180330" duration="27000" />
+      <workItem from="1705396224812" duration="18838000" />
+      <workItem from="1705934622819" duration="11000" />
+      <workItem from="1705934648100" duration="18612000" />
+      <workItem from="1706030038137" duration="12140000" />
+      <workItem from="1708099850100" duration="1934000" />
     </task>
-    <task id="LOCAL-00001" summary="Initial commit. Resilience is implemented">
-      <option name="closed" value="true" />
-      <created>1705306101969</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1705306101969</updated>
-    </task>
-    <task id="LOCAL-00002" summary="before including prometheus into docker compose">
-      <option name="closed" value="true" />
-      <created>1705319028557</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1705319028557</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit. Resilience is implemented" />
-    <MESSAGE value="before including prometheus" />
-    <MESSAGE value="before including prometheus into docker compose" />
-    <option name="LAST_COMMIT_MESSAGE" value="before including prometheus into docker compose" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/notes-service/src/main/java/com/svichkar/eureka/noteservice/endpoint/Notes.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gateway/src/main/java/com/svichkar/eureka/gateway/config/RouteConfig.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

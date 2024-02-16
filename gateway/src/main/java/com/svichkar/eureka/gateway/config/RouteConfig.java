@@ -62,8 +62,6 @@ public class RouteConfig {
                                                                                                            1,
                                                                                                            true))
                                                        )
-//                                               .metadata(CONNECT_TIMEOUT_ATTR, 1000)
-//                                               .metadata(RESPONSE_TIMEOUT_ATTR, 2000)
                                                .uri("lb://NOTES"))
                                   .build();
     }

@@ -5,10 +5,8 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestHeader;
 
-//@FeignClient(name = "notes", path = "/notes")
 @FeignClient(name = "notes", path = "/notes"
-//        ,
-//        fallback = NotesFallBack.class
+//        , fallback = NotesFallBack.class
 )
 public interface NotesClient {
 

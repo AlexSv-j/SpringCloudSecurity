@@ -8,7 +8,7 @@
         <version>3.1.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.svichkar</groupId>
+    <groupId>com.svichkar.demo</groupId>
     <artifactId>gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>gateway</name>
@@ -30,10 +30,18 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
-        <!--        <dependency>-->
-        <!--            <groupId>org.springframework.boot</groupId>-->
-        <!--            <artifactId>spring-boot-starter-oauth2-client</artifactId>-->
-        <!--        </dependency>-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-oauth2-resource-server</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-oauth2-jose</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -107,7 +115,7 @@
                 <version>3.3.2</version>
                 <configuration>
                     <to>
-                        <image>eureka/${project.artifactId}:v1</image>
+                        <image>eureka/${project.artifactId}:v12</image>
                     </to>
                 </configuration>
             </plugin>
